@@ -2,8 +2,10 @@
 
 Voluntold is a student volunteer planner. It searches public web sources for real volunteer opportunities, filters them using a student's location, age, interests, and availability, and helps organize selected opportunities on a calendar.
 
-## Public page
+## Public portfolio demo
 
-- /: Product overview and sign-in page.
+- /: An always-available, browser-only demonstration of the product workflow.
+- The demo uses a generic scenario and does not collect, transmit, or store visitor data.
+- The private Express, search, authentication, and locally hosted AI services are intentionally disconnected.
 
-Private profiles, calendars, searches, and email drafts require authentication and should not be indexed or treated as public content.
+The full local prototype supports authenticated profiles, live opportunity research, calendars, and editable outreach drafts. This public portfolio build should not be indexed or treated as a live service.
