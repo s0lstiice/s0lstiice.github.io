@@ -1,0 +1,9 @@
+# Voluntold
+
+Voluntold is a student volunteer planner. It searches public web sources for real volunteer opportunities, filters them using a student's location, age, interests, and availability, and helps organize selected opportunities on a calendar.
+
+## Public page
+
+- /: Product overview and sign-in page.
+
+Private profiles, calendars, searches, and email drafts require authentication and should not be indexed or treated as public content.
