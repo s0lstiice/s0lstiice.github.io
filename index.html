@@ -1,26 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#176c5a" />
-    <meta name="robots" content="noindex, nofollow, noarchive" />
-    <meta name="description" content="Voluntold helps students find real, age-appropriate volunteer opportunities and organize them around their schedules." />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Voluntold | Student volunteer planner" />
-    <meta property="og:description" content="Find real volunteer opportunities, compare schedules, and turn the right roles into a plan." />
-    <meta property="og:image" content="https://s0lstiice.github.io/social-preview.svg" />
-    <meta property="og:image:alt" content="Voluntold student volunteer planner" />
-    <meta property="og:url" content="https://s0lstiice.github.io/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://s0lstiice.github.io/" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Voluntold | Student volunteer planner</title>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Voluntold","url":"https://s0lstiice.github.io/","applicationCategory":"EducationalApplication","operatingSystem":"Web","description":"A student volunteer planner that finds real opportunities and organizes them around a student's schedule."}</script>
-    <script type="module" src="/assets/index-mobile.js?v=ngrok-20260814-2"></script>
-    <link rel="stylesheet" href="/assets/index-mobile.css?v=ngrok-20260814-2" />
-  </head>
-  <body><div id="root"><main><h1>Voluntold</h1><p>Find real volunteer opportunities and organize them around your schedule.</p></main></div></body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101512">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="A directory of projects by Vivian Gu.">
+  <title>Projects · Vivian Gu</title>
+  <style>
+    :root { --bg:#101512; --panel:#18201b; --line:#344239; --ink:#f3efe6; --muted:#aeb8b0; --green:#7bc4a1; --gold:#e1b866; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:32px; background:radial-gradient(circle at 15% 10%,#24372c 0,transparent 38%),radial-gradient(circle at 90% 85%,#30291a 0,transparent 36%),var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(920px,100%); }
+    header { margin-bottom:28px; }
+    .eyebrow { margin:0 0 8px; color:var(--green); font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { margin:0; max-width:700px; font:600 clamp(2.5rem,7vw,5.2rem)/.98 Georgia,serif; letter-spacing:-.035em; }
+    .intro { max-width:640px; margin:18px 0 0; color:var(--muted); font-size:1.06rem; }
+    .projects { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .card { min-height:270px; display:flex; flex-direction:column; padding:26px; border:1px solid var(--line); border-radius:18px; background:linear-gradient(145deg,#1d2720e8,#151a17f2); color:inherit; text-decoration:none; box-shadow:0 18px 50px #0004; transition:transform .18s ease,border-color .18s ease; }
+    .card:hover,.card:focus-visible { transform:translateY(-4px); border-color:var(--accent); outline:none; }
+    .tag { color:var(--accent); font-size:.75rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h2 { margin:34px 0 10px; font:600 1.9rem/1.1 Georgia,serif; }
+    .card p { margin:0; color:var(--muted); }
+    .open { margin-top:auto; padding-top:26px; color:var(--accent); font-weight:750; }
+    footer { margin-top:24px; color:#839087; font-size:.82rem; }
+    @media(max-width:680px){ body{padding:22px}.projects{grid-template-columns:1fr}.card{min-height:230px} }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Vivian Gu · Projects</p>
+      <h1>Choose a project to explore.</h1>
+      <p class="intro">Two public tools: one for finding meaningful volunteer work, and one for examining historical handwriting alongside machine-generated transcription drafts.</p>
+    </header>
+    <section class="projects" aria-label="Projects">
+      <a class="card" href="/voluntold/" style="--accent:var(--green)">
+        <span class="tag">Student volunteer planner</span>
+        <h2>Voluntold</h2>
+        <p>Find real, age-appropriate volunteer opportunities and organize them around your schedule.</p>
+        <span class="open">Open Voluntold →</span>
+      </a>
+      <a class="card" href="/LOC-Handwritten-Transcriptions-Churro-Adapter/" style="--accent:var(--gold)">
+        <span class="tag">Historical-document research</span>
+        <h2>LOC Handwriting Comparison Desk</h2>
+        <p>Browse 6,477 Library of Congress manuscript scans beside their machine-generated transcription drafts.</p>
+        <span class="open">Open comparison desk →</span>
+      </a>
+    </section>
+    <footer>Machine transcription drafts require human review and are not official Library of Congress transcriptions.</footer>
+  </main>
+</body>
 </html>
